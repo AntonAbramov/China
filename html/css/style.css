@@ -1,6 +1,11 @@
 /*========================
   Layout
   ========================*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 html,
 body {
 	min-height: 100%;
@@ -101,4 +106,42 @@ ol {
 .icon {
 	display: inline-block;
 	text-indent: -9999em;
+}
+.inn {
+	margin:0 auto;
+	width:940px;
+}
+/*========================
+  HEADER
+========================*/
+.header {
+	background: url(../img/header-bg.png) repeat-x;
+	height:72px;
+	padding-bottom:2px;
+}
+.header .logo {
+	float:left;
+	width:220px;
+	padding-top: 5px;
+}
+.header .logo a {
+	float:left;
+	display: block;
+}
+.header .logo a img {
+	display: block;
+}
+.header .search {
+	width:260px;
+	float:left;
+}
+.header-top-nav a{
+	font-size:12px;
+	color:#a1cdea;
+	text-decoration: none;
+}
+.header .header-top-nav a:hover,
+.header .header-top-nav a:focus {
+	text-decoration: underline;
+	color:#fff;
 }
