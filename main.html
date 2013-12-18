@@ -7,8 +7,10 @@
 	<meta name="keywords" content=""/>
 	<meta name="description" content=""/>
 	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/sprite.css" type="text/css" media="all"/>
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -27,6 +29,146 @@
 					<a href="#">Гарантии</a>
 					<a href="#">Контакты</a>
 				</div>
+				<div class="search-section">
+					<form action="#" method="">
+						<div class="search-field">
+							<input id="srch" type="search" placeholder="Поиск в магазине ..." />
+							<button class="search-btn" title="Найти">Search</button>
+						</div>
+						<div id="srch-popup" class="search-result">
+							<div class="search-item">
+								<div class="picture">
+									<a title="product title" href="#">
+										<img src="img/item.jpg" alt=""/>
+									</a>
+								</div>
+								<div class="info">
+									<p class="category">
+										Телефоны Louis Vuitton
+									</p>
+									<div class="title">
+										<a href="#">
+											Зажигалка с Full HD камерой
+										</a>
+									</div>
+								</div>
+								<div class="price">
+									<strong>3400.-</strong>
+								</div>
+							</div>
+							<div class="search-item">
+								<div class="picture">
+									<a title="product title" href="#">
+										<img src="img/item.jpg" alt=""/>
+									</a>
+								</div>
+								<div class="info">
+									<p class="category">
+										Телефоны Louis Vuitton
+									</p>
+									<div class="title">
+										<a href="#">
+											Зажигалка с Full HD камерой
+										</a>
+									</div>
+								</div>
+								<div class="price">
+									<strong>3400.-</strong>
+								</div>
+							</div>
+							<div class="search-item">
+								<div class="picture">
+									<a title="product title" href="#">
+										<img src="img/item.jpg" alt=""/>
+									</a>
+								</div>
+								<div class="info">
+									<p class="category">
+										Телефоны Louis Vuitton
+									</p>
+									<div class="title">
+										<a href="#">
+											Зажигалка с Full HD камерой
+										</a>
+									</div>
+								</div>
+								<div class="price">
+									<strong>3400.-</strong>
+								</div>
+							</div>
+							<div class="search-item">
+								<div class="picture">
+									<a title="product title" href="#">
+										<img src="img/item.jpg" alt=""/>
+									</a>
+								</div>
+								<div class="info">
+									<p class="category">
+										Телефоны Louis Vuitton
+									</p>
+									<div class="title">
+										<a href="#">
+											Зажигалка с Full HD камерой
+										</a>
+									</div>
+								</div>
+								<div class="price">
+									<strong>3400.-</strong>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="call-back">
+				<div class="tel">
+					<a href="#">
+						<span>(395)</span>345-04-40
+					</a>
+				</div>
+				<button id="btn-call-back" class="btn-call-back">Перезвоните мне</button>
+			</div>
+			<div class="cart-section">
+				<div class="cart-button" title="Корзина" id="cart-btn">
+					<span class="icon icons-cart">
+						&nbsp;
+					</span>
+					<span class="text">Корзина</span>
+					<span class="num">68</span>
+				</div>
+				<div class="basket">
+					<table>
+						<thead>
+							<tr>
+								<td colspan="2">Название</td>
+								<td>Кол-во</td>
+								<td>Цена за шт.</td>
+								<td>Итого</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+								<td class="title"><a href="#">
+									Зажигалка с Full HD камерой вот такие вот дела
+								</a></td>
+								<td>
+									<div class="number-grow">
+										<input type="text" />
+										<span class="plus">+</span>
+										<span class="min">-</span>
+									</div>
+								</td>
+								<td>
+									3400.-
+								</td>
+								<td>
+									<span class="delete">x</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 	</header><!-- .header -->
@@ -36,7 +178,21 @@
 	<footer class="footer cf">
 		s
 	</footer><!-- .footer -->
-
+	<div id="call-back-popup" class="call-back-popup">
+		<div class="popup">
+			<form action="#" method="">
+				<button title="Закрыть" class="close">x</button>
+				<div class="title">Обратный звонок</div>
+				<p>Пожалуйста, оставьте ваш номер телефона.
+				Наши сотрудники свяжутся с вами в ближайшее время.</p>
+				<div class="tel-holder">
+					<input type="tel" placeholder="Ваш телефон"/>
+				</div>
+				<p class="example">Например: +7 (495) 342-20-30</p>
+				<input id="callme" type="submit" value="жду звонка" title="жду звонка" />
+			</form>
+		</div>
+	</div>
 
 <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
 <script type="text/javascript" src="js/init.js"></script>

@@ -3,7 +3,9 @@
 @import "icons/*.png";
 @include all-icons-sprites(true);
 
-
-.test {
-	color:red;
+.header-top-nav a:before  {
+	@include icons-sprite(squre);
+}
+.header .search-field .search-btn {
+	@include icons-sprite(search);
 }
