@@ -9,3 +9,6 @@
 .header .search-field .search-btn {
 	@include icons-sprite(search);
 }
+.basket .submit-order-section:after {
+	@include icons-sprite(arrow-white-right);
+}

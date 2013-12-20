@@ -1,5 +1,5 @@
 /* line 290, icons/*.png */
-.icons-sprite, .icons-add-cart, .icons-added, .icons-arrow-bread, .icons-arrow-white-down, .icons-arrow-white-left, .icons-arrow-white-right, .icons-arrow-white-top, .icons-blue-arrow, .icons-camera, .icons-cart-white, .icons-cart, .icons-corpus, .icons-cpu, .icons-delete, .icons-display, .icons-green-mark, .icons-grid, .icons-home, .icons-info, .icons-interface, .icons-list, .icons-mastercard, .icons-new, .icons-sale, .icons-search, .icons-source, .icons-squre, .icons-visa, .icons-webmoney, .icons-yandexmoney, .icons-zoom, .header-top-nav a:before, .header .search-field .search-btn {
+.icons-sprite, .icons-add-cart, .icons-added, .icons-arrow-bread, .icons-arrow-white-down, .icons-arrow-white-left, .icons-arrow-white-right, .icons-arrow-white-top, .icons-blue-arrow, .icons-camera, .icons-cart-white, .icons-cart, .icons-corpus, .icons-cpu, .icons-delete, .icons-display, .icons-green-mark, .icons-grid, .icons-home, .icons-info, .icons-interface, .icons-list, .icons-mastercard, .icons-new, .icons-sale, .icons-search, .icons-source, .icons-squre, .icons-visa, .icons-webmoney, .icons-yandexmoney, .icons-zoom, .header-top-nav a:before, .header .search-field .search-btn, .basket .submit-order-section:after {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -12,7 +12,7 @@
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-added {
-  background-position: 0 -149px;
+  background-position: 0 -188px;
   height: 17px;
   width: 26px;
 }
@@ -75,7 +75,7 @@
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-cart {
-  background-position: 0 -198px;
+  background-position: 0 -149px;
   height: 39px;
   width: 49px;
 }
@@ -215,7 +215,7 @@
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-zoom {
-  background-position: 0 -166px;
+  background-position: 0 -205px;
   height: 32px;
   width: 32px;
 }
@@ -228,4 +228,9 @@
 /* line 9, ../sass/sprite.scss */
 .header .search-field .search-btn {
   background-position: 0 -526px;
+}
+
+/* line 12, ../sass/sprite.scss */
+.basket .submit-order-section:after {
+  background-position: 0 -552px;
 }
