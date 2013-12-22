@@ -1,5 +1,6 @@
-/* line 290, icons/*.png */
-.icons-sprite, .icons-add-cart, .icons-added, .icons-arrow-bread, .icons-arrow-white-down, .icons-arrow-white-left, .icons-arrow-white-right, .icons-arrow-white-top, .icons-blue-arrow, .icons-camera, .icons-cart-white, .icons-cart, .icons-corpus, .icons-cpu, .icons-delete, .icons-display, .icons-green-mark, .icons-grid, .icons-home, .icons-info, .icons-interface, .icons-list, .icons-mastercard, .icons-new, .icons-sale, .icons-search, .icons-source, .icons-squre, .icons-visa, .icons-webmoney, .icons-yandexmoney, .icons-zoom, .header-top-nav a:before, .header .search-field .search-btn, .basket .submit-order-section:after {
+/* line 298, icons/*.png */
+.icons-sprite, .icons-add-cart, .icons-added, .icons-arrow-bread, .icons-arrow-white-down, .icons-arrow-white-left, .icons-arrow-white-right, .icons-arrow-white-top, .icons-blue-arrow, .icons-camera, .icons-cart-white, .icons-cart, .icons-corpus, .icons-cpu, .icons-delete, .icons-display, .icons-green-mark, .icons-grid, .icons-home, .icons-info, .icons-interface, .icons-list, .icons-mastercard, .icons-new, .icons-sale, .icons-search, .icons-source, .icons-squre, .icons-visa, .icons-webmoney, .icons-white-arrow, .icons-yandexmoney, .icons-zoom, .header-top-nav a:before, .header .search-field .search-btn, .basket .submit-order-section:after, .green-mark li:before, .side-menu nav a:before, .side-menu nav a:hover:before,
+.side-menu nav a.active:before, .new-icon:after, .sale-icon:after {
   background: url('../img/icons.png') no-repeat;
 }
 
@@ -117,7 +118,7 @@
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-grid {
-  background-position: 0 -630px;
+  background-position: 0 -635px;
   height: 14px;
   width: 14px;
 }
@@ -187,7 +188,7 @@
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-squre {
-  background-position: 0 -644px;
+  background-position: 0 -649px;
   height: 4px;
   width: 4px;
 }
@@ -207,6 +208,13 @@
 }
 
 /* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-white-arrow {
+  background-position: 0 -630px;
+  height: 5px;
+  width: 3px;
+}
+
+/* line 60, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-yandexmoney {
   background-position: 0 -119px;
   height: 30px;
@@ -222,7 +230,7 @@
 
 /* line 6, ../sass/sprite.scss */
 .header-top-nav a:before {
-  background-position: 0 -644px;
+  background-position: 0 -649px;
 }
 
 /* line 9, ../sass/sprite.scss */
@@ -233,4 +241,61 @@
 /* line 12, ../sass/sprite.scss */
 .basket .submit-order-section:after {
   background-position: 0 -552px;
+}
+
+/* line 15, ../sass/sprite.scss */
+.green-mark li:before {
+  content: "";
+  background-position: 0 -598px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 8px;
+}
+
+/* line 24, ../sass/sprite.scss */
+.side-menu nav a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  width: 3px;
+  height: 5px;
+  background-position: 0 -606px;
+}
+
+/* line 35, ../sass/sprite.scss */
+.side-menu nav a:hover:before,
+.side-menu nav a.active:before {
+  background-position: 0 -630px;
+}
+
+/* line 39, ../sass/sprite.scss */
+.new-icon,
+.sale-icon {
+  padding-right: 40px !important;
+}
+
+/* line 43, ../sass/sprite.scss */
+.new-icon:after {
+  content: "";
+  width: 29px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  background-position: 0 -453px;
+}
+
+/* line 52, ../sass/sprite.scss */
+.sale-icon:after {
+  content: "";
+  width: 28px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  background-position: 0 -511px;
 }

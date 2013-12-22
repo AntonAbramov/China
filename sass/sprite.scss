@@ -12,3 +12,49 @@
 .basket .submit-order-section:after {
 	@include icons-sprite(arrow-white-right);
 }
+.green-mark li:before {
+	content:"";
+	@include icons-sprite(green-mark);
+	position: absolute;
+	left:0;
+	top:5px;
+	width: 10px;
+	height:8px;
+}
+.side-menu nav a:before {
+	content:"";
+	display: block;
+	position: absolute;
+	left:20px;
+	top:8px;
+	width: 3px;
+	height: 5px;
+	@include icons-sprite(blue-arrow);
+}
+.side-menu nav a:hover:before,
+.side-menu nav a.active:before {
+	@include icons-sprite(white-arrow);
+}
+.new-icon,
+.sale-icon{
+	padding-right:40px!important;
+
+}
+.new-icon:after {
+	content:"";
+	width: 29px;
+	height: 15px;
+	position: absolute;
+	right:10px;
+	top:4px;
+	@include icons-sprite(new);
+}
+.sale-icon:after {
+	content:"";
+	width: 28px;
+	height: 15px;
+	position: absolute;
+	right:10px;
+	top:4px;
+	@include icons-sprite(sale);
+}
