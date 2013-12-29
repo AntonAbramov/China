@@ -58,3 +58,18 @@
 	top:4px;
 	@include icons-sprite(sale);
 }
+.side-menu .title .arrow {
+	@include icons-sprite(arrow-white-down);
+}
+.side-menu .title.active .arrow {
+	@include icons-sprite(arrow-white-top);
+}
+.bread-crumbs li:before {
+	@include icons-sprite(arrow-bread);
+}
+.active .icons-list {
+	@include icons-sprite(list_active);
+}
+.active .icons-block {
+	@include icons-sprite(block_active);
+}

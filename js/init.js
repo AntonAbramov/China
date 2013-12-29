@@ -47,12 +47,83 @@ $(document).ready(function () {
 		}
 	});
 
+	$(".side-menu").find(".title").on("click", function(){
+		if ($(this).hasClass('active')) {
+			$(this).removeClass('active').next().slideUp();
+
+		}
+		else {
+			$(this).addClass('active').next().slideDown();
+		}
+	});
 
 	//Delete item from Basket cart
 	$(document).on('click', ".basket-remove .remove", function(){
 		$(this).parents('tr').remove();
-	})
-});
+	});
+
+
+
+	$(".sort-blocks").on("click", function(){
+		if (!$(this).hasClass("active")) {
+			$(".sort-list").removeClass("active");
+			$(this).addClass("active");
+			$(".product-items").removeClass("grid-lists");
+		}
+	});
+	$(".sort-list").on("click", function(){
+		if (!$(this).hasClass("active")) {
+			$(".sort-blocks").removeClass("active");
+			$(this).addClass("active");
+			$(".product-items").addClass("grid-lists");
+		}
+	});
+
+	//show first four items and show all
+
+	if ($(".first-four").length) {
+		if ($(".first-four").find(".item").length > 4) {
+			$(".first-four").find(".show-rest span").text("[" + $(".first-four").find(".item").length + "]");
+			$(".first-four").find(".item").eq(0).show().end()
+										.eq(1).show().end()
+										.eq(2).show().end()
+										.eq(3).show();
+		}
+		$(".show-rest").on("click", function(event){
+			event.preventDefault();
+			$(this).css("opacity" , "0").parents(".first-four").find(".item").fadeIn();
+		});
+	}
+
+	// Tabs
+	var tab = $(".tabs");
+	if(tab) {
+		tab.each(function(){
+			var idx = $(this).find("li.active").index();
+			$(this).parents('.tab-holder').find('.tabs-container .tab-block').eq(idx).show();
+		});
+
+
+		tab.find("li").click(function() {
+			if($(this).hasClass("active")) {
+				return false;
+			} else {
+				$(this).parents('.tabs').find("li").removeClass('active');
+				$(this).parents('.tab-holder').find(".tab-block").hide();
+				var idx = $(this).addClass("active").index();
+				$(this).parents('.tab-holder').find(".tab-block").eq(idx).show();
+
+			}
+		});
+	}
+
+	if ($(".product-details ").length) {
+		priceHeight();
+	}
+
+
+
+}); // end Document Ready
 
 $(window).load(function () {
 	$('#slides').slidesjs({
@@ -70,9 +141,26 @@ $(window).load(function () {
 			}
 		}
 	});
+	if ($( "#slider-range").length){
+		$( "#slider-range" ).slider({
+			range: true,
+			min: 0,
+			max: 10,
+			values: [ 0, 10 ],
+			slide: function( event, ui ) {
+			$( "#amount" ).val( "от  " + ui.values[ 0 ] + "   до   " + ui.values[ 1 ] );
+			}
+		});
+	}
+
+
+
 });
 
 
-closeCallBack = function(){
+function closeCallBack(){
 	$("#call-back-popup").fadeOut();
+}
+function priceHeight(){
+	$(".product-price").height($(".product-details").height())
 }
