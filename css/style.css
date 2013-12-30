@@ -2164,6 +2164,7 @@ ol li {
 }
 .tabs li:last-child {
 	float:right;
+	padding:0 40px;
 }
 .tab-block {
 	display: none;
@@ -2416,6 +2417,9 @@ ol li {
 	float:right;
 	padding: 0 5px;
 }
+.dot-row span:last-child {
+	width: 90px;
+}
 .dot-row span:first-child {
 	float:left;
 }
@@ -2434,4 +2438,7 @@ ol li {
 .s20 h2 {
 	font-size: 20px;
 	margin:0 0 10px;
+}
+.w540.left.pr30 .product-items{
+	margin:0 -15px;
 }
