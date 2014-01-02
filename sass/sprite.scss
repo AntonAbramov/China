@@ -73,3 +73,9 @@
 .active .icons-block {
 	@include icons-sprite(block_active);
 }
+.picture-galery .fancybox:hover:after {
+	@include icons-sprite(galery-icon);
+}
+.sbm-btn:after {
+	@include icons-sprite(arrow-white-right);
+}
