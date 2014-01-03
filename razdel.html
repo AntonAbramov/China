@@ -1,0 +1,629 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Framework</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Anton Abramov"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/sprite.css" type="text/css" media="all"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="inn cf">
+				<div class="logo cf">
+					<a title="China smartphone" href="/">
+						<img src="img/logo.png" alt="China smartphone"/>
+					</a>
+				</div>
+				<div class="search">
+					<div class="header-top-nav">
+						<a href="#">Доставка и оплата</a>
+						<a href="#">Гарантии</a>
+						<a href="#">Контакты</a>
+					</div>
+					<div class="search-section">
+						<form action="#" method="">
+							<div class="search-field">
+								<input id="srch" type="search" placeholder="Поиск в магазине ..." />
+								<button class="search-btn" title="Найти">Search</button>
+							</div>
+							<div id="srch-popup" class="search-result">
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="call-back">
+					<div class="tel">
+						<a href="#">
+							<span>(395)</span>345-04-40
+						</a>
+					</div>
+					<button id="btn-call-back" class="btn-call-back">Перезвоните мне</button>
+				</div>
+				<div class="cart-section">
+					<div class="cart-button not-empty" title="Корзина" id="cart-btn">
+						<span class="icon icons-cart">
+							&nbsp;
+						</span>
+						<span class="text">Корзина</span>
+						<span class="num">68</span>
+					</div>
+					<div class="basket">
+						<form action="">
+							<table>
+								<thead>
+									<tr>
+										<th colspan="2">Название</th>
+										<th>Кол-во</th>
+										<th>Цена за шт.</th>
+										<th colspan="2">Итого</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="1" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="0" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="2" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="total-amount">
+								ИТОГО:&nbsp;&nbsp; <strong>15</strong> товаров на сумму <strong>35,000 руб.</strong>
+							</div>
+							<div class="cf submit-order-section">
+								<button type="button" class="close-window" id="close-basket-window">закрыть окно</button>
+								<input class="submit-order" value="Оформить заказ" type="submit"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header><!-- .header -->
+		<div class="body cf">
+			<div class="inn">
+				<div class="cf">
+					<div class="left-side-bar">
+						<div class="side-menu">
+							<sectioin class="side-menu-section">
+								<div class="title active">Каталог товаров <span class="arrow">&nbsp;</span></div>
+								<nav>
+								<a class="active" href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a class="new-icon" href="#">Ударопные телефоны </a>
+								<a class="sale-icon" href="#">Ударчные телефоны </a>
+							</nav>
+							</sectioin>
+							<sectioin class="side-menu-section">
+								<div class="title">Каталог товаров <span class="arrow">&nbsp;</span></div>
+								<div class="side-filter">
+									<form action="#">
+										<div class="heading">Выбор по чекбоксам</div>
+										<p><label><input type="checkbox"/>Grohe</label></p>
+										<p><label><input type="checkbox"/>Keuco</label></p>
+										<p><label><input type="checkbox"/>Hansgrohe</label></p>
+										<div class="heading">Диапозон выбора</div>
+										<p class="mb10">Укажите диапозон чего-то для побдора товаров</p>
+										<div id="slider-range"></div>
+										<p>
+											<input type="text" id="amount" style="border:0;">
+										</p>
+										<div class="heading">с длинным именем так делать не надо:)</div>
+										<div class="filter-checkbox-section">
+											<p><label><input type="checkbox"/>Grohe</label></p>
+											<p><label><input type="checkbox"/>Keuco</label></p>
+											<p><label><input type="checkbox"/>Hansgrohe</label></p>
+											<p><label><input type="checkbox"/>Grohe</label></p>
+											<p><label><input type="checkbox"/>Keuco</label></p>
+											<p><label><input type="checkbox"/>Hansgrohe</label></p>
+										</div>
+										<div class="submit-filter">
+											<input type="sumit" value="Применить фильтр" />
+										</div>
+										<div class="reset-filter">
+											<input type="reset" value="Сбросить все фильтры" />
+										</div>
+									</form>
+
+								</div>
+							</sectioin>
+
+						</div>
+
+					</div><!-- end .left-side-bar -->
+					<div class="left">
+						<div class="bread-crumbs">
+							<ul class="cf">
+								<li><a href="#" title="home" class="icon icons-home">home</a></li>
+								<li><a href="#1">Каталог</a></li>
+								<li><span>Процессор MT6589</span></li>
+
+							</ul>
+						</div>
+						<h1>Процессор MT6589</h1>
+						<div class="filter cf">
+							<form action="#">
+								<div class="filter-item overflow-hidden"><span class="filter-name">Вид отображения: <butotn class="sort-blocks active"><span class="icon icons-block"></span></butotn><butotn class="sort-list"><span class="icon icons-list"></span></butotn></span></div>
+								<div class="filter-item">
+									<span class="filter-name">Сортировка:
+										<select name="">
+											<option value="">по возрастанию цены</option>
+											<option value="">по убыванию цены</option>
+											<option value="">по убыванию цены2</option>
+											<option value="">по убыванию цены3</option>
+										</select>
+										<!--<span class="icon icons-filter-choose">&nbsp;</span> на маке стрелка вообще лишняя-->
+									</span>
+								</div>
+								<div class="filter-item"><span class="filter-name">Кол-во товаров на страницу:
+									<select name="">
+										<option value="20">20</option>
+										<option value="50">50</option>
+										<option value="100">100</option>
+										<option value="200">200</option>
+									</select>
+								</span>
+								</div>
+							</form>
+
+						</div>
+
+						<section class="product-items">
+							<div class="item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod3.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod2.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod4.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod1.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+
+							<div class="item sale-item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod3.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item new-item">
+									<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod2.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item hit-item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod1.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+							<div class="item all-item">
+								<div class="item-holder">
+									<a href="#" class="preview">
+										<span class="more">Подробнее</span>
+										<img src="img/products/prod2.jpg" alt=""/>
+									</a>
+									<div class="discription-holder">
+										<a href="#" class="title">Meizu M9 8Gb</a>
+										<p class="discription">
+											VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+											[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+										</p>
+									</div>
+
+									<div class="price">
+										18700.- <button type="button"><span class="icon icons-added">added</span></button>
+									</div>
+								</div>
+							</div>
+
+						</section>
+							<div class="paginator-buttons">
+								<a class="prev-items" href="#prev" rel="prev"><span class="icon icons-arrow-white-left">&nbsp;</span>предыдущие  товары</a>
+								<a class="next-items" href="#next" rel="next">Следующие  товары<span class="icon icons-arrow-white-right">&nbsp;</span></a>
+							</div>
+					</div><!-- end .left -->
+				</div>
+
+				<div class="two-borders">
+					<div>&nbsp;</div>
+					<div>&nbsp;</div>
+				</div>
+				<h2>Развитие технологий SIM-карт</h2>
+				<p>SIM переводится так: Subscriber Identity Module, то есть модуль идентификации абонента. Порядка 20 лет миниатюрный чип выступает в качестве своеобразного паспорта, предназначенного для абонентов цифровой сотовой связи. Чип содержит сведения, которые нужны для идентификации в сети абонента, здесь же хранятся телефонная книга, настройки мобильного устройства. SIM-карта — это не только чип памяти. Это настоящий, только совсем миниатюрный компьютер, имеющий свой микропроцессор, операционную систему и прочие атрибуты.
+sim карта</p>
+				<h3>Развитие технологий SIM-карт</h3>
+				<p>
+					Для конструкторов электроники понятие «<a href="#">миниатюрный</a>» остается довольно привычным. Многие электронные устройства с каждым годом все уменьшаются и уменьшаются в размерах.
+					<a href="#">SIM-карта</a>, к примеру, появилась еще в 1991 году. Она несколько раз уменьшалась в размерах. Первая SIM-карта была по размерам с кредитную карту. Затем была уже вторая версия - мини-SIM, у которой не было по краям бесполезного пластика, она уже достигла размера ногтя. Третья версия, микро-SIM, укоротилась в 2 раза (15x12x0,76 мм).
+				</p>
+				<div class="cf mt30 mb30 half-lists">
+					<ul class="green-mark">
+						<li>Китайские мобильные телефоны многофункциональны.</li>
+						<li>Практически неотличимы от оригиналов.</li>
+						<li>Стоят значительно дешевле, нет переплаты за бренд.  </li>
+						<li>Обладают полноценной гарантией.</li>
+						<li>Китайские копии производят на тех же заводах, что и брендовые.</li>
+					</ul>
+					<ol>
+						<li><div>Китайские мобильные телефоны многофункциональны.</div></li>
+						<li><div>Практически неотличимы от оригиналов.</div></li>
+						<li><div>Стоят значительно дешевле, нет переплаты за бренд.</div></li>
+						<li><div>Обладают полноценной гарантией.</div></li>
+						<li><div>Китайские копии производят на тех же заводах, что и брендовые.</div></li>
+					</ol>
+				</div>
+				<h4>Развитие технологий SIM-карт</h4>
+				<div class="half-blocks cf">
+					<div>
+						<table class="full-table">
+							<tr>
+								<td class="title-td">Название</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td class="title-td">Характеристики</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td class="title-td">Значение</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td class="title-td">Цена</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td class="title-td">Тоже поле</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+						</table>
+					</div>
+					<div>
+						<table class="full-table">
+							<tr>
+								<td class="title-td">Название</td>
+								<td class="title-td">Название</td>
+								<td class="title-td">Название</td>
+							</tr>
+							<tr>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+							<tr>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+								<td>Название столбца</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div><!-- .wrapper -->
+	<footer class="footer cf">
+			<div class="inn">
+				<div class="copyright">
+					&copy; 2009-2013 ChinaSmartPhone |  <a href="#">Карта сайта</a>
+				</div>
+				<div class="payments">
+					<a class="icon icons-visa" href="#">Visa</a>
+					<a class="icon icons-mastercard" href="#">Master card</a>
+					<a class="icon icons-webmoney" href="#">webmoney</a>
+					<a class="icon icons-yandexmoney" href="#">yandexmoney</a>
+				</div>
+				<div class="sosials">
+					<a href="#"><img src="img/twitter.png" alt=""/></a>
+					<a href="#"><img src="img/fb.png" alt=""/></a>
+					<a href="#"><img src="img/google.png" alt=""/></a>
+				</div>
+			</div>
+		</footer><!-- .footer -->
+	<div id="call-back-popup" class="call-back-popup">
+		<div class="popup">
+			<form action="#" method="">
+				<button title="Закрыть" class="close">x</button>
+				<div class="title">Обратный звонок</div>
+				<p>Пожалуйста, оставьте ваш номер телефона.
+				Наши сотрудники свяжутся с вами в ближайшее время.</p>
+				<div class="tel-holder">
+					<input type="tel" placeholder="Ваш телефон"/>
+				</div>
+				<p class="example">Например: +7 (495) 342-20-30</p>
+				<input id="callme" type="submit" value="жду звонка" title="жду звонка" />
+			</form>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+@import "blueprint";
+@import "compass";
+@import "icons/*.png";
+@include all-icons-sprites(true);
+
+.header-top-nav a:before  {
+	@include icons-sprite(squre);
+}
+.header .search-field .search-btn {
+	@include icons-sprite(search);
+}
+.basket .submit-order-section:after {
+	@include icons-sprite(arrow-white-right);
+}
+.green-mark li:before {
+	content:"";
+	@include icons-sprite(green-mark);
+	position: absolute;
+	left:0;
+	top:5px;
+	width: 10px;
+	height:8px;
+}
+.side-menu nav a:before {
+	content:"";
+	display: block;
+	position: absolute;
+	left:20px;
+	top:8px;
+	width: 3px;
+	height: 5px;
+	@include icons-sprite(blue-arrow);
+}
+.side-menu nav a:hover:before,
+.side-menu nav a.active:before {
+	@include icons-sprite(white-arrow);
+}
+.new-icon,
+.sale-icon{
+	padding-right:40px!important;
+
+}
+.new-icon:after {
+	content:"";
+	width: 29px;
+	height: 15px;
+	position: absolute;
+	right:10px;
+	top:4px;
+	@include icons-sprite(new);
+}
+.sale-icon:after {
+	content:"";
+	width: 28px;
+	height: 15px;
+	position: absolute;
+	right:10px;
+	top:4px;
+	@include icons-sprite(sale);
+}
+.side-menu .title .arrow {
+	@include icons-sprite(arrow-white-down);
+}
+.side-menu .title.active .arrow {
+	@include icons-sprite(arrow-white-top);
+}
+.bread-crumbs li:before {
+	@include icons-sprite(arrow-bread);
+}
+.active .icons-list {
+	@include icons-sprite(list_active);
+}
+.active .icons-block {
+	@include icons-sprite(block_active);
+}
+.picture-galery .fancybox:hover:after {
+	@include icons-sprite(galery-icon);
+}
+.sbm-btn:after {
+	@include icons-sprite(arrow-white-right);
+}

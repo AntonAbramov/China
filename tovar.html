@@ -1,0 +1,1301 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Framework</title>
+	<meta charset="UTF-8"/>
+	<meta name="author" content="Anton Abramov"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="css/sprite.css" type="text/css" media="all"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="inn cf">
+				<div class="logo cf">
+					<a title="China smartphone" href="/">
+						<img src="img/logo.png" alt="China smartphone"/>
+					</a>
+				</div>
+				<div class="search">
+					<div class="header-top-nav">
+						<a href="#">Доставка и оплата</a>
+						<a href="#">Гарантии</a>
+						<a href="#">Контакты</a>
+					</div>
+					<div class="search-section">
+						<form action="#" method="">
+							<div class="search-field">
+								<input id="srch" type="search" placeholder="Поиск в магазине ..." />
+								<button class="search-btn" title="Найти">Search</button>
+							</div>
+							<div id="srch-popup" class="search-result">
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+								<div class="search-item">
+									<div class="picture">
+										<a title="product title" href="#">
+											<img src="img/item.jpg" alt=""/>
+										</a>
+									</div>
+									<div class="info">
+										<p class="category">
+											Телефоны Louis Vuitton
+										</p>
+										<div class="title">
+											<a href="#">
+												Зажигалка с Full HD камерой
+											</a>
+										</div>
+									</div>
+									<div class="price">
+										<strong>3400.-</strong>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="call-back">
+					<div class="tel">
+						<a href="#">
+							<span>(395)</span>345-04-40
+						</a>
+					</div>
+					<button id="btn-call-back" class="btn-call-back">Перезвоните мне</button>
+				</div>
+				<div class="cart-section">
+					<div class="cart-button not-empty" title="Корзина" id="cart-btn">
+						<span class="icon icons-cart">
+							&nbsp;
+						</span>
+						<span class="text">Корзина</span>
+						<span class="num">68</span>
+					</div>
+					<div class="basket">
+						<form action="">
+							<table>
+								<thead>
+									<tr>
+										<th colspan="2">Название</th>
+										<th>Кол-во</th>
+										<th>Цена за шт.</th>
+										<th colspan="2">Итого</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="1" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="0" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+									<tr>
+										<td class="basket-picture"><a href="#" title="mobile phone"><img src="img/item_ord.jpg" alt=""/></a></td>
+										<td class="title"><a href="#">
+											Зажигалка с Full HD камерой вот такие вот дела
+										</a></td>
+										<td class="basket-count-td">
+											<div class="number-grow">
+												<button type="button" class="plus">+</button>
+												<button type="button" class="min">-</button>
+												<input maxlength="3" value="2" type="text" name="" pattern="[0-9]{1,3}" />
+											</div>
+										</td>
+										<td class="basket-item-price">
+											3400.-
+										</td>
+										<td class="basket-amount">
+											<strong>3400.-</strong>
+										</td>
+										<td class="basket-remove">
+											<button type="button" class="remove">x</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="total-amount">
+								ИТОГО:&nbsp;&nbsp; <strong>15</strong> товаров на сумму <strong>35,000 руб.</strong>
+							</div>
+							<div class="cf submit-order-section">
+								<button type="button" class="close-window" id="close-basket-window">закрыть окно</button>
+								<input class="submit-order" value="Оформить заказ" type="submit"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header><!-- .header -->
+		<div class="body cf">
+			<div class="inn">
+				<div class="cf">
+					<div class="left-side-bar">
+						<div class="side-menu">
+							<sectioin class="side-menu-section">
+								<div class="title active">Каталог товаров <span class="arrow">&nbsp;</span></div>
+								<nav>
+								<a class="active" href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a href="#">Ударопрочные телефоны </a>
+								<a class="new-icon" href="#">Ударопные телефоны </a>
+								<a class="sale-icon" href="#">Ударчные телефоны </a>
+							</nav>
+							</sectioin>
+							<sectioin class="side-menu-section">
+								<div class="title">Каталог товаров <span class="arrow">&nbsp;</span></div>
+								<div class="side-filter">
+									<form action="#">
+										<div class="heading">Выбор по чекбоксам</div>
+										<p><label><input type="checkbox"/>Grohe</label></p>
+										<p><label><input type="checkbox"/>Keuco</label></p>
+										<p><label><input type="checkbox"/>Hansgrohe</label></p>
+										<div class="heading">Диапозон выбора</div>
+										<p class="mb10">Укажите диапозон чего-то для побдора товаров</p>
+										<div id="slider-range"></div>
+										<p>
+											<input type="text" id="amount" style="border:0;">
+										</p>
+										<div class="heading">с длинным именем так делать не надо:)</div>
+										<div class="filter-checkbox-section">
+											<p><label><input type="checkbox"/>Grohe</label></p>
+											<p><label><input type="checkbox"/>Keuco</label></p>
+											<p><label><input type="checkbox"/>Hansgrohe</label></p>
+											<p><label><input type="checkbox"/>Grohe</label></p>
+											<p><label><input type="checkbox"/>Keuco</label></p>
+											<p><label><input type="checkbox"/>Hansgrohe</label></p>
+										</div>
+										<div class="submit-filter">
+											<input type="sumit" value="Применить фильтр" />
+										</div>
+										<div class="reset-filter">
+											<input type="reset" value="Сбросить все фильтры" />
+										</div>
+									</form>
+
+								</div>
+							</sectioin>
+
+						</div>
+
+					</div><!-- end .left-side-bar -->
+					<div class="left">
+						<div class="bread-crumbs">
+							<ul class="cf">
+								<li><a href="#" title="home" class="icon icons-home">home</a></li>
+								<li><a href="#1">Каталог</a></li>
+								<li><span>Meizu M9 8Gb</span></li>
+
+							</ul>
+						</div>
+						<h1>Meizu M9 8Gb</h1>
+						<div class="filter cf">
+							<form action="#">
+								<div class="filter-item overflow-hidden"><span class="filter-name">Вид отображения: <butotn class="sort-blocks active"><span class="icon icons-block"></span></butotn><butotn class="sort-list"><span class="icon icons-list"></span></butotn></span></div>
+								<div class="filter-item">
+									<span class="filter-name">Сортировка:
+										<select name="">
+											<option value="">по возрастанию цены</option>
+											<option value="">по убыванию цены</option>
+											<option value="">по убыванию цены2</option>
+											<option value="">по убыванию цены3</option>
+										</select>
+										<!--<span class="icon icons-filter-choose">&nbsp;</span> на маке стрелка вообще лишняя-->
+									</span>
+								</div>
+								<div class="filter-item">
+									<span class="filter-name">Кол-во товаров на страницу:
+										<select name="">
+											<option value="20">20</option>
+											<option value="50">50</option>
+											<option value="100">100</option>
+											<option value="200">200</option>
+										</select>
+									</span>
+								</div>
+							</form>
+						</div>
+						<div class="tab-holder">
+							<ul class="menu tabs cf">
+								<li class="active">
+									Обзор
+								</li>
+								<li class="">
+									Описание
+								</li>
+								<li>Характеристики</li>
+								<li>Фото [23]</li>
+								<li>Видео [2]</li>
+								<li>Аксессуары [16]</li>
+							</ul>
+						<div class="tabs-container">
+							<div class="tab-block">
+								<div class="cf mb20">
+									<div class="big-product-slider left">
+										<div class="item-holder">
+											<img alt="" src="img/preview-slider/big-preview1.jpg">
+											<button class="prev">prev</button>
+											<button class="next">next</button>
+										</div>
+										<div class="item-scroller">
+											<ul class="menu cf" style="left:0;">
+												<li class="current">
+													<img data-src="img/preview-slider/big-preview1.jpg" alt="" src="img/preview-slider/small-preview1.jpg">
+												</li>
+												<li class="">
+													<img data-src="img/preview-slider/big-preview2.jpg" alt="" src="img/preview-slider/small-preview2.jpg">
+												</li>
+												<li class="">
+													<img data-src="img/preview-slider/big-preview1.jpg" alt="" src="img/preview-slider/small-preview1.jpg">
+												</li>
+
+											</ul>
+										</div>
+										<div class="mb20">
+											<a href="#">Смотреть все фотографии →</a>
+										</div>
+										<h3 class="upper-title brd-bottom pb5">видео</h3>
+										<div class="video-holder mb5">
+											<img src="img/video.jpg" alt=""/>
+										</div>
+										<div class="mb20">
+											<a href="#">Смотреть все видеоролики →</a>
+										</div>
+										<h3 class="upper-title brd-bottom pb5">Описание</h3>
+										<p>
+											Китайский смартфон имеет отличные характеристики, а это двухъядерный процессор MTK MT6577, 1Гб RAM, Corning Gorilla Glass, 4,5 дюймовый HD экран и Android 4,0 ICS (с обновлением до JB). Стильный коммуникатор  JY-G3 отлично лежит в руке, имеет удачные размеры и высокие характеристики начинки, а так же доступная цена! Китайский смартфон имеет отличные характеристики, а это двухъядерный процессор MTK MT6577, 1Гб RAM, Corning Gorilla Glass, 4,5 дюймовый HD
+											<a href="#">Подробнее →</a>
+										</p>
+									</div>
+									<div class="prodcut-info-section left cf">
+										<div class="cf pb10 mb10">
+											<div class="product-details left">
+												<div class="cf">
+													<div class="heading">Комплектация</div>
+												</div>
+												<ul>
+													<li>
+														<label for="microsd">MicroSD:</label>
+														<select name="" id="microsd">
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+														</select>
+													</li>
+													<li><span class="name">Автомобильное ЗУ:</span><label><input type="checkbox" name="" /> + 350.-</label></li>
+													<li><span class="name">Автомобильное ЗУ:</span><label><input type="checkbox" name="" /> + 700.-</label></li>
+													<li><span class="name">Автомобильное ЗУ:</span><label><input type="checkbox" name="" /> + 350.-</label></li>
+													<li><span class="name">Чехол-сумка:</span><label><input type="checkbox" name="" /> + 350.-</label></li>
+													<li><span class="name">Держатель для авто:</span><label><input type="checkbox" name="" /> + 350.-</label></li>
+													<li><span class="name">Автомобильное ЗУ:</span><label><input type="checkbox" name="" /> + 350.-</label></li>
+												</ul>
+											</div>
+											<div class="product-price left">
+												<div class="cf">
+													<div class="heading">Цена</div>
+													<div class="price">
+														Старая цена
+														<span>34600</span>
+													</div>
+
+												</div>
+												<strong class="final-price">34600.-</strong>
+												<button class="add-to-cart-btn">
+													<span class="icon icons-cart-white">&nbsp;</span>
+													в корзину
+												</button>
+												<div class="saving t-center">
+													Экономия:<span> 2500.-</span>
+												</div>
+												<div class="t-center">При 100% предоплате</div>
+											</div>
+										</div>
+										<div style="margin-bottom:57px;">
+											<p><strong>Данный товар доставляется под заказ!</strong> После оплаты товар идет до нас около 10 дней, далее мы его тестируем и отправляем клиенту. Это  быстрее и надежней, чем напрямую из Китая. Общий срок доставки с момента оплаты и с учетом доставки по России 14-21 дней. Отправка производится из России.</p>
+										</div>
+										<h3 class="brd-bottom pb5 upper-title">Характеристики</h3>
+										<ul class="property-list">
+											<li>
+												<span class="icon icons-info"></span>
+												<h4>Общие характеристики</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-display"></span>
+												<h4>Дисплей</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-interface"></span>
+												<h4>Интерфейсы</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-camera"></span>
+												<h4>КАмера</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-cpu"></span>
+												<h4>Память и процессор</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-source"></span>
+												<h4>Питание</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<span class="icon icons-corpus"></span>
+												<h4>Корпус</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<h2 class="brd-bottom pb5">Аксессуары</h2>
+								<section class="product-items first-four">
+									<div class="item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod3.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod2.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod4.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod1.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+
+									<div class="item sale-item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod3.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item new-item">
+											<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod2.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item hit-item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod1.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<div class="item all-item">
+										<div class="item-holder">
+											<a href="#" class="preview">
+												<span class="more">Подробнее</span>
+												<img src="img/products/prod2.jpg" alt=""/>
+											</a>
+											<div class="discription-holder">
+												<a href="#" class="title">Meizu M9 8Gb</a>
+												<p class="discription">
+													VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+													[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+												</p>
+											</div>
+											<div class="price">
+												18700.- <button type="button"><span class="icon icons-added">added</span></button>
+											</div>
+										</div>
+									</div>
+									<a class="show-rest" href="#">Показать все аксессуары  <span>[23]</span></a>
+								</section>
+							</div>
+							<div class="tab-block">
+								<div class="w540 left pr30">
+									<div class="s20">
+										<h2>Описание и обзор Canon EOS 600D Kit 18-135 IS</h2>
+									</div>
+									<p>Китайский смартфон имеет отличные характеристики, а это двухъядерный процессор MTK MT6577, 1Гб RAM, Corning Gorilla Glass, 4,5 дюймовый HD экран и Android 4,0 ICS (с обновлением до JB). Стильный коммуникатор  JY-G3 отлично лежит в руке, имеет удачные размеры и высокие характеристики начинки, а так же доступная цена! Китайский смартфон имеет отличные характеристики, а это двухъядерный процессор MTK MT6577, 1Гб RAM, Corning Gorilla Glass, 4,5 дюймовый HD </p>
+									<h3 class="s16 mb10">Высший начальный класс</h3>
+
+									<p>Несмотря на то, что фотоаппарат Canon EOS 600D Kit 18-135 IS предназначен в
+										первую очередь для тех, кто только начинает знакомство с зеркальными цифровыми
+										фотокамерами, он снабжен функциями и технологиями, обычно присущими
+										полупрофессиональным устройствам, выводя на качественно новый уровень стандарты
+										любительских “зеркалок”.
+									</p>
+
+									<p>Компактные размеры, высокотехнологичная “начинка”, широчайший набор доступных настроек фото- и видеосъемки и потрясающее удобство в управлении – вот что выгодно отличает данный фотоаппарат от аналогичных моделей.</p>
+									<p class=t-center><img src="img/pic1.jpg" alt=""/></p>
+									<p>Несмотря на то, что фотоаппарат Canon EOS 600D Kit 18-135 IS предназначен в первую очередь для тех, кто только начинает знакомство с зеркальными цифровыми фотокамерами , он сна бжен функциями и технологиями, обычно присущими полупрофессиональным устройствам, выводя на качественно новый уровень стандарты любительских “зеркалок”.</p>
+									<p>Компактные размеры, высокотехнологичная “начинка”, широчайший набор доступных настроек фото- и видеосъемки и потрясающее удобство в управлении – вот что выгодно отличает данный фотоаппарат от аналогичных моделей.</p>
+									<p>Несмотря на то, что фотоаппарат Canon EOS 600D Kit 18-135 IS предназначен в первую очередь для тех, кто только начинает знакомство с зеркальными цифровыми фотокамерами, он сна бжен функциями и технологиями, обычно присущими полупрофессиональным устройствам, выводя на качественно новый уровень стандарты любительских “зеркалок”.</p>
+									<p>Компактные размеры, высокотехнологичная “начинка”, широчайший набор доступных настроек фото- и видеосъемки и потрясающее удобство в управлении – вот что выгодно отличает данный фотоаппарат от аналогичных моделей.Несмотря на то, что фотоаппарат Canon EOS 600D Kit 18-135 IS предназначен в первую очередь для тех, кто только начинает знакомство с зеркальными цифровыми фотокамерами, он сна бжен функциями и технологиями, обычно присущими полупрофессиональным устройствам, выводя на качественно новый уровень стандарты любительских “зеркалок”.</p>
+									<p>Компактные размеры, высокотехнологичная “начинка”, широчайший набор доступных настроек фото- и видеосъемки и потрясающее удобство в управлении – вот что выгодно отличает данный фотоаппарат от аналогичных моделей.</p>
+								</div>
+								<div class="product-price right">
+									<div class="cf">
+										<div class="heading">Цена</div>
+										<div class="price">
+											Старая цена
+											<span>34600</span>
+										</div>
+									</div>
+									<strong class="final-price">34600.-</strong>
+									<button class="add-to-cart-btn">
+										<span class="icon icons-cart-white">&nbsp;</span>
+										в корзину
+									</button>
+									<div class="saving t-center">
+										Экономия:<span> 2500.-</span>
+									</div>
+									<div class="t-center">При 100% предоплате</div>
+								</div>
+
+							</div>
+							<div class="tab-block">
+								<div class="w540 left pr30">
+									<div class="s20"><h2>Характеристики Canon EOS 600D Kit 18-135 IS</h2></div>
+									<ul class="property-list">
+											<li>
+												<h4>Общие характеристики</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>Дисплей</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>Интерфейсы</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>КАмера</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>Память и процессор</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>Питание</h4>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+											<li>
+												<h4>Корпус</h4>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Минимальная выдержка</span>
+													<span>1/4000 сек</span>
+												</div>
+												<div class="dot-row">
+													<span>Максимальная выдержка</span>
+													<span>30 сек</span>
+												</div>
+											</li>
+										</ul>
+								</div>
+								<div class="product-price right">
+									<div class="cf">
+										<div class="heading">Цена</div>
+										<div class="price">
+											Старая цена
+											<span>34600</span>
+										</div>
+									</div>
+									<strong class="final-price">34600.-</strong>
+									<button class="add-to-cart-btn">
+										<span class="icon icons-cart-white">&nbsp;</span>
+										в корзину
+									</button>
+									<div class="saving t-center">
+										Экономия:<span> 2500.-</span>
+									</div>
+									<div class="t-center">При 100% предоплате</div>
+								</div>
+							</div>
+							<div class="tab-block">
+								<div class="w540 left pr30">
+									<div class="s20">
+										<h2>Фотографии Canon EOS 600D Kit 18-135 IS</h2>
+									</div>
+									<div class="picture-galery">
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic2.jpg"><img src="img/galery/b-pic1.jpg" alt="" /></a>
+										<a class="fancybox" rel="group" href="img/galery/b-pic1.jpg"><img src="img/galery/b-pic2.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div class="product-price right">
+									<div class="cf">
+										<div class="heading">Цена</div>
+										<div class="price">
+											Старая цена
+											<span>34600</span>
+										</div>
+									</div>
+									<strong class="final-price">34600.-</strong>
+									<button class="add-to-cart-btn">
+										<span class="icon icons-cart-white">&nbsp;</span>
+										в корзину
+									</button>
+									<div class="saving t-center">
+										Экономия:<span> 2500.-</span>
+									</div>
+									<div class="t-center">При 100% предоплате</div>
+								</div>
+							</div>
+							<div class="tab-block">
+								<div class="w540 left pr30">
+									<div class="s20">
+										<h2>Видео о Canon EOS 600D Kit 18-135 IS</h2>
+									</div>
+									<h3>Высший начальный класс</h3>
+									<p>В эксплуатации находится уже более 2-х лет и чувствуется, что уже приходит в негодность. Первое время работал на ура, а сейчас появились проблемы с матрицей...</p>
+									<div class="mb20">
+										<iframe width="520" height="315" src="//www.youtube.com/embed/C-y70ZOSzE0" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<h3>Высший начальный класс</h3>
+									<p>В эксплуатации находится уже более 2-х лет и чувствуется, что уже приходит в негодность. Первое время работал на ура, а сейчас появились проблемы с матрицей...</p>
+									<div class="mb20">
+										<iframe width="520" height="315" src="//www.youtube.com/embed/C-y70ZOSzE0" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+								<div class="product-price right">
+									<div class="cf">
+										<div class="heading">Цена</div>
+										<div class="price">
+											Старая цена
+											<span>34600</span>
+										</div>
+									</div>
+									<strong class="final-price">34600.-</strong>
+									<button class="add-to-cart-btn">
+										<span class="icon icons-cart-white">&nbsp;</span>
+										в корзину
+									</button>
+									<div class="saving t-center">
+										Экономия:<span> 2500.-</span>
+									</div>
+									<div class="t-center">При 100% предоплате</div>
+								</div>
+							</div>
+							<div class="tab-block">
+								<div class="w540 left pr30">
+									<section class="product-items">
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod3.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod2.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod4.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod1.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod3.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod2.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod4.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod1.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod3.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod2.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod4.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod1.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod3.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod2.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod4.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+										<div class="item">
+											<div class="item-holder">
+												<a href="#" class="preview">
+													<span class="more">Подробнее</span>
+													<img src="img/products/prod1.jpg" alt=""/>
+												</a>
+												<div class="discription-holder">
+													<a href="#" class="title">Meizu M9 8Gb</a>
+													<p class="discription">
+														VIP-телефон на 2 активные сим-карты в стиле Louis Vuitton
+														[2х1400 МГц, 32 Гб, 1024 Мб, 9.7", IPS, 2048x1536, iOS, 11988 мАч]
+													</p>
+												</div>
+
+												<div class="price">
+													18700.- <button type="button"><span class="icon icons-added">added</span></button>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+								<div class="product-price right">
+									<div class="cf">
+										<div class="heading">Цена</div>
+										<div class="price">
+											Старая цена
+											<span>34600</span>
+										</div>
+									</div>
+									<strong class="final-price">34600.-</strong>
+									<button class="add-to-cart-btn">
+										<span class="icon icons-cart-white">&nbsp;</span>
+										в корзину
+									</button>
+									<div class="saving t-center">
+										Экономия:<span> 2500.-</span>
+									</div>
+									<div class="t-center">При 100% предоплате</div>
+								</div>
+							</div>
+						</div>
+						</div>
+
+					</div><!-- end .left -->
+				</div>
+			</div>
+		</div>
+	</div><!-- .wrapper -->
+	<footer class="footer cf">
+			<div class="inn">
+				<div class="copyright">
+					&copy; 2009-2013 ChinaSmartPhone |  <a href="#">Карта сайта</a>
+				</div>
+				<div class="payments">
+					<a class="icon icons-visa" href="#">Visa</a>
+					<a class="icon icons-mastercard" href="#">Master card</a>
+					<a class="icon icons-webmoney" href="#">webmoney</a>
+					<a class="icon icons-yandexmoney" href="#">yandexmoney</a>
+				</div>
+				<div class="sosials">
+					<a href="#"><img src="img/twitter.png" alt=""/></a>
+					<a href="#"><img src="img/fb.png" alt=""/></a>
+					<a href="#"><img src="img/google.png" alt=""/></a>
+				</div>
+			</div>
+		</footer><!-- .footer -->
+	<div id="call-back-popup" class="call-back-popup">
+		<div class="popup">
+			<form action="#" method="">
+				<button title="Закрыть" class="close">x</button>
+				<div class="title">Обратный звонок</div>
+				<p>Пожалуйста, оставьте ваш номер телефона.
+				Наши сотрудники свяжутся с вами в ближайшее время.</p>
+				<div class="tel-holder">
+					<input type="tel" placeholder="Ваш телефон"/>
+				</div>
+				<p class="example">Например: +7 (495) 342-20-30</p>
+				<input id="callme" type="submit" value="жду звонка" title="жду звонка" />
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/item_scroll.js"></script>
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+	<script type="text/javascript" src="js/init.js"></script>
+
+</body>
+</html>
