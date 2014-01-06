@@ -26,10 +26,10 @@ $(document).ready(function () {
 	//BASKET
 
 	$("#cart-btn").on("click", function(){
-		$(".basket").fadeToggle();
+		$(this).parents(".cart-section").find(".basket").fadeToggle();
 	});
 	$("#close-basket-window").on("click", function(){
-		$(".basket").fadeOut();
+		$(this).parents(".basket").fadeOut();
 	});
 
 	$('.number-grow').find('.plus').on('click', function(){
