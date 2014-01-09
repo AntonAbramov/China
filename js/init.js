@@ -59,6 +59,9 @@ $(document).ready(function () {
 
 	//Delete item from Basket cart
 	$(document).on('click', ".basket-remove .remove", function(){
+		if ($(this).parents('tr').hasClass("brd-none")) {
+			$(this).parents('tr').next().remove();
+		}
 		$(this).parents('tr').remove();
 	});
 
