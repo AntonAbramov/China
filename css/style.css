@@ -105,6 +105,7 @@ a {
 	text-decoration:underline;
 }
 a:hover, a:focus {
+	color:#34495E;
 	text-decoration:none;
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -546,8 +547,6 @@ ol {
 .call-back .tel {
 	padding-left: 8px;
 	margin-bottom:9px;
-}
-.call-back .tel a{
 	display: block;
 	letter-spacing: .5px;
 	color:#fff;
@@ -555,7 +554,7 @@ ol {
 	font-size:20px;
 	text-transform: uppercase;
 }
-.call-back .tel a span {
+.call-back .tel span {
 	color:#a1cdea;
 }
 .call-back .btn-call-back {
@@ -659,6 +658,7 @@ ol {
 .call-back-popup input[type="submit"]:hover,
 .call-back-popup input[type="submit"]:focus{
 	background: #004f87;
+	outline:none;
 }
 .call-back-popup .close {
 	font-weight: bold;
@@ -855,6 +855,7 @@ ol {
 	z-index: 2;
 	line-height: 8px;
 	font-size:12px;
+	padding:0 0 2px 0;
 }
 .number-grow button:first-child {
 	border-bottom:1px solid #ebebeb;
@@ -879,9 +880,9 @@ ol {
 	font-size: 12px;
 	height: 13px;
 	line-height: 4px;
-	padding: 0 0 2px 1px;
+	padding: 0 0 4px 0;
 	text-align: center;
-	width: 13px;
+	width: 14px;
 }
 .basket .basket-remove button:hover,
 .basket .basket-remove button:focus {
@@ -1031,6 +1032,9 @@ ol {
 .footer .copyright a {
 	color:#fff;
 	text-decoration: none;
+}
+.footer .copyright a:hover {
+	text-decoration: underline;
 }
 .footer .payments {
 	float:left;
@@ -1556,6 +1560,7 @@ ol li {
 	line-height:24px;
 	color:#f38213;
 	overflow: hidden;
+	font-style: italic;
 	padding: 0 10px 15px;
 	text-align: center;
 	margin: 15px 0 0;
@@ -1757,7 +1762,7 @@ ol li {
 }
 .grid-lists.product-items .item .price {
 	float:right;
-	width: 145px;
+	width: 150px;
 	padding:0;
 	margin-top:30px;
 }
@@ -2135,6 +2140,9 @@ ol li {
 .first-four .show-rest {
 	text-decoration: none;
 }
+.first-four .show-rest:hover {
+	text-decoration: underline;
+}
 .first-four .show-rest span{
 	color:#333;
 }
@@ -2276,7 +2284,7 @@ ol li {
 	background: #ffedd0;
 	border:1px solid #ffdfab;
 	padding: 15px 10px;
-	min-height: 180px;
+	min-height: 220px;
 }
 
 .product-price .heading {
@@ -2321,7 +2329,7 @@ ol li {
 	color:#fff;
 	margin-bottom: 25px;
 	text-transform: uppercase;
-	padding:10px 20px;
+	padding:10px 15px;
 	width: 100%;
 	border-radius: 3px;
 	border:none;
@@ -2411,7 +2419,7 @@ ol li {
 }
 
 .dot-row {
-	background: url(../img/dot-row.png) repeat-x 0 9px;
+	background: url(../img/dot-row.png) repeat-x 0 13px;
 }
 .dot-row:after {
 	content:"";
@@ -2637,7 +2645,6 @@ ol li {
 	margin:20px 0;
 }
 .cart-page .basket .title {
-	vertical-align: top;
 }
 .cart-page .support-items-row strong,
 .cart-page .support-items-row a {
@@ -2665,6 +2672,16 @@ ol li {
 	font-size: 10px;
 	padding: 2px 10px;
 	border-radius: 2px;
+}
+.cart-page .add-to-cart-table button:hover,
+.cart-page .add-to-cart-table button:focus{
+	background: #0863b2;
+}
+.cart-page .add-to-cart-table button.dis-button,
+.cart-page .add-to-cart-table button.dis-button:hover,
+.cart-page .add-to-cart-table button.dis-button:focus{
+	background: #ccc;
+	cursor: default;
 }
 .cart-page .basket thead tr,
 .cart-page .basket tfoot tr{
@@ -2703,7 +2720,28 @@ ol li {
 .cart-page .promo-code a:hover {
 	border:none;
 }
-.cart-page
-.cart-page
-.cart-page
-.cart-page
+.more-details {
+	text-decoration: underline;
+	color:#2980B9;
+}
+a.slidesjs-slide:hover .more-details {
+	text-decoration: none;
+}
+.slidesjs-slide,
+.slidesjs-slide:hover{
+	color:#333;
+}
+label input {
+	position: relative;
+	top:2px;
+}
+.brd-none, .going-items-with {
+	border-bottom:none!important;
+}
+.basket tbody .going-with td{
+	padding-top:0;
+}
+.going-with-items {
+	margin:-20px 0 5px;
+	text-transform: uppercase;
+}
